@@ -1,0 +1,93 @@
+    form {
+        margin-left: 150px;
+      }
+    body {
+        
+        padding-bottom: 40px;
+         font-size: 14px;
+        font-family: verdana
+    }
+    * {
+    margin: 0px;
+    padding: 0px;
+    }
+    #heading{
+        float: left;
+        width: 640px;
+    }
+    #heading a {
+        line-height: 65px;
+        text-decoration: none;
+        padding-left: 60px;
+        color:#FFF;
+        font-family: aardvark cafe;
+        font-size: 40px;
+    }
+    nav {
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        font-family: arial;
+    } 
+
+    nav ul {
+        background:#008000;
+        padding: 0 20px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        width: 100%;
+     }
+
+    nav ul li{
+        float:left;
+    }
+
+    nav ul li:hover{
+        background:black;;
+    }
+
+    nav ul li:hover a{
+        color:white;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: 25px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .jumbotron {
+
+          position: relative;
+          background: url(images/kamarpi.jpg) center center;
+          color:#fff;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          overflow: hidden;
+    }
+   
+.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+
+#filter{
+  padding-top: 100px;
+}
+
+.thumbnail img {
+    width: 500px;
+    height: 500px;
+}
+
+.thumbnail {
+    padding: 0;
+}
