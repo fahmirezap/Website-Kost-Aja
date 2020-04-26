@@ -1,5 +1,5 @@
 <?php
-$dbservername="localhost";
+$dbservername="mysql_service";
 $dbusername="root";
 $dbpassword="123";
 $dbdatabase="kostaja";
